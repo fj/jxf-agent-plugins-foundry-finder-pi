@@ -1,0 +1,26 @@
+{
+  "name": "foundry-finder",
+  "version": "0.1.20261006022043",
+  "description": "Discovers Azure AI Foundry deployments at startup and registers them as pi models.",
+  "author": {
+    "name": "John Feminella"
+  },
+  "repository": "https://github.com/fj/agent-plugins",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/adapters/pi"
+    ]
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
